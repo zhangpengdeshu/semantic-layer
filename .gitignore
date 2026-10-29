@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# 环境变量
+.env
+.env.local
+
+# 前端
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# 内部设计文档（不随开源仓库提交）
+/语义模型层接入说明.md
+/语义模型层技术架构方案.md
+/语义建模示例-零售经营.md
+/语义建模平台前端设计.md
+/语义建模平台后端设计.md
+/语义层重写清单-前后端.md
+/数据建模名词解释-大白话版.md
